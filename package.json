@@ -1,0 +1,34 @@
+{
+  "name": "newreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src/**/*.{js,jsx} --quiet"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tanstack/react-query": "^4.15.0",
+    "axios": "^1.1.3",
+    "loader": "^2.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-router-dom": "^6.4.3"
+  },
+  "devDependencies": {
+    "@tanstack/react-query-devtools": "^4.15.0",
+    "@vitejs/plugin-react": "^2.2.0",
+    "eslint": "^8.26.0",
+    "eslint-plugin-eslint-plugin": "^5.0.6",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "vite": "^3.2.2"
+  }
+}
